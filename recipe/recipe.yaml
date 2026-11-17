@@ -28,11 +28,11 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - mujoco >=3.6.0
+    - mujoco >=4.0.1
     - numpy
     - trimesh >=4.8.3
-    - viser >=1.0.27
-    - pillow >=12.2.0
+    - viser >=1.1.1
+    - pillow >=12.3.0
 
 tests:
   - python:
